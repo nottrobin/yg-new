@@ -1,0 +1,44 @@
+/**
+ * Resets
+ */
+body {
+    margin: 0;
+}
+
+/**
+ * Navigation & search
+ * 
+ * A dark grey bar at the top of the screen
+ * it has no fixed width
+ * but items should be centred inside it
+ */
+.prelude {
+    background-color: rgb(42, 42, 42);
+    text-align: center;
+}
+nav {
+    font-variant: small-caps;
+    color: white;
+    text-align: left;
+    display: inline-block;
+}
+nav form, nav ul {
+    margin: 1em;
+    display: inline-block;
+    padding: 0;
+    font-weight: bold;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+[type=search] {
+    border: none;
+    -webkit-appearance: none;
+    padding: 0.3em;
+    background-color: rgb(184, 184, 184);
+}
+[type=search]:focus {
+    outline: #6ab023;
+}
